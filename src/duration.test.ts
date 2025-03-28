@@ -13,8 +13,8 @@ describe("formatDuration", () => {
     test("formatDuration of 3600 tobe 1h", () => {
         expect(formatDuration(3600)).toBe("1h");
     });
-    test("formatDuration of 3999 tobe 1h6m30s", () => {
-        expect(formatDuration(3999)).toBe("1h6m30s");
+    test("formatDuration of 3999 tobe 1h6m39s", () => {
+        expect(formatDuration(3999)).toBe("1h6m39s");
     });
     test("formatDuration of 0 tobe 0s", () => {
         expect(formatDuration(0)).toBe("0s");
